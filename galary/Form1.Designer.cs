@@ -36,6 +36,7 @@ namespace galary
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
 
+
             button = new Button();
             this.button.Text = "+";
             this.button.Location = new Point(650, 50);
