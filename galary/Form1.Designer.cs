@@ -1,4 +1,5 @@
-﻿
+﻿using System.Drawing;
+using System.Windows.Forms;
 namespace galary
 {
     partial class Form1
@@ -141,12 +142,13 @@ namespace galary
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Galary";
-            ((System.ComponentModel.ISupportInitialize)(this.selectedImage)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
+        Button button;
+        Button button1;
+        Button button2;
+        PictureBox box = new PictureBox();
 
+        Label label;
         #endregion
 
         private System.Windows.Forms.PictureBox selectedImage;
